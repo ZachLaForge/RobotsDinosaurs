@@ -4,12 +4,13 @@ from dinosaur import Dinosaur
 
 class Robot:
 
-    def __init__(self, name):
-        self.name = ''
-        self.health = 100
-        self.weapon = Weapon()
+    def __init__(self, name, health):
+        self.name = name
+        self.health = health
+        self.weapon = Weapon("Photon Rifle, 45")
         
 
     def robot_attack(self, dinosaur):
-        pass
-    
+        dinosaur.health -= self.weapon.attack_power
+
+        

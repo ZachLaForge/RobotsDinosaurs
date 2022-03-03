@@ -1,12 +1,14 @@
-from ast import Import
 from dinosaur import Dinosaur
 
 class Herd:
 
     def __init__(self):
-        self.dinosaurs = []
+        self.dinosaur.list = []
+        self.create_herd()
 
 
     def create_herd(self):
-        pass
-    
+        rex = Dinosaur()
+        trike = Dinosaur()
+        raptor = Dinosaur()
+        
