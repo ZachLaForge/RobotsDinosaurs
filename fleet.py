@@ -8,7 +8,7 @@ class Fleet:
 
 
     def create_fleet(self):
-        r2d2 = Robot()
-        c3po = Robot()
-        bd1 = Robot()
+        r2d2 = Robot("R2D2, 120")
+        c3po = Robot("C3PO, 125")
+        bb8 = Robot("BB8, 100")
 

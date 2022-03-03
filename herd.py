@@ -8,7 +8,11 @@ class Herd:
 
 
     def create_herd(self):
-        rex = Dinosaur()
-        trike = Dinosaur()
-        raptor = Dinosaur()
+        rex = Dinosaur("Rex, 120, 50")
+        trike = Dinosaur("Trike, 120, 35")
+        bronto = Dinosaur("Bronto, 130, 45")
+
         
+        self.dinosaur.list.append(rex) 
+        self.dinosaur.list.append(trike)
+        self.dinosaur.list.append(bronto)
