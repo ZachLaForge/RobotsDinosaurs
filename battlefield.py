@@ -2,7 +2,7 @@
 from fleet import Fleet
 from herd import Herd
 
-class Battlefield:
+class Battlefield: # User Stories : As a developer I want to make a class for; Robot, Dinosaur, Fleet, Herd, Weapon, Battlefield.
 
     def __init__(self):
         self.fleet = Fleet()
@@ -28,7 +28,7 @@ Insert witty stuff Here
         
         
         
-       
+And Here        
         """)
 
 
