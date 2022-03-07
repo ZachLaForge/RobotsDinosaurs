@@ -20,17 +20,17 @@ class Battlefield: # User Stories : As a developer I want to make a class for; R
 
     def battle(self):
       while len(self.fleet.robots) > 0 and len(self.herd.dinosaurs) > 0:
-          first_move = input (" Who gets to attack : robots or dinos ? ")
+        first_move = input (" Who gets to attack : robots or dinos ? ")
           
-          if (first_move == 'robots'):
-             Battlefield.robot_turn(self)
-          elif (first_move == 'dinos'):
+        if (first_move == 'robots'):
+            Battlefield.robot_turn(self)
+        elif (first_move == 'dinos'):
             Battlefield.dino_turn(self)
 
-            if len(self.fleet.robots) == 0:
-                self.display_winners("Dinos")
-            elif len(self.herd.dinosaurs) == 0:
-                self.display_winners("Robots")
+        if len(self.fleet.robots) == 0:
+            self.display_winners("Dinos")
+        elif len(self.herd.dinosaurs) == 0:
+            self.display_winners("Robots")
 
 
     def robot_turn(self):
