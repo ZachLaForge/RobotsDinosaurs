@@ -62,4 +62,4 @@ class Battlefield: # User Stories : As a developer I want to make a class for; R
 
 
     def display_winners(self, winner):
-        print("Congrats The " + [winner] + "  live to fight another day " )
+        print("Congrats The " + winner + "  live to fight another day " )
