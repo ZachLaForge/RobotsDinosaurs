@@ -8,10 +8,9 @@ class Herd: # User Stories : As a developer I want to make a class for; Robot, D
 
 
     def create_herd(self): # User Storeis : As a developer, I want to instantiate three Robot objects and three Dinosaur objects and assign the appropriate values. 
-        rex = Dinosaur("Rex, 120, 50")
-        trike = Dinosaur("Trike, 120, 35")
-        bronto = Dinosaur("Bronto, 130, 45")
-
+        rex = Dinosaur("Rex", 120, 50)
+        trike = Dinosaur("Trike", 120, 35)
+        bronto = Dinosaur("Bronto", 130, 45)
         
         self.dinosaurs.append(rex) 
         self.dinosaurs.append(trike)

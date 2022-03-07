@@ -8,9 +8,9 @@ class Fleet: # User Stories : As a developer I want to make a class for; Robot, 
 
 
     def create_fleet(self): # User Storeis : As a developer, I want to instantiate three Robot objects and three Dinosaur objects and assign the appropriate values. 
-        r2d2 = Robot("R2D2, 120")
-        c3po = Robot("C3PO, 125")
-        bb8 = Robot("BB8, 100")
+        r2d2 = Robot("R2D2", 120)
+        c3po = Robot("C3PO", 125)
+        bb8 = Robot("BB8", 100)
 
         self.robots.append(r2d2)
         self.robots.append(c3po)
